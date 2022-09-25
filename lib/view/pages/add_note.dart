@@ -5,8 +5,6 @@ import 'package:odcworkshop2/model/note.dart';
 import 'package:odcworkshop2/view/component/core/core_components.dart';
 import 'package:odcworkshop2/view/component/pages_components/add_note.dart';
 import 'package:odcworkshop2/view/pages/note.dart';
-import 'package:odcworkshop2/view_model/add_note/add_note_cubit.dart';
-import 'package:odcworkshop2/view_model/add_note/add_note_state.dart';
 import 'package:odcworkshop2/view_model/database/sql.dart';
 
 class AddNote extends StatelessWidget {
