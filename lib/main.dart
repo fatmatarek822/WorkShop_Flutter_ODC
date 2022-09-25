@@ -10,7 +10,6 @@ import 'package:odcworkshop2/view/pages/login.dart';
 import 'package:odcworkshop2/view/pages/register.dart';
 import 'package:odcworkshop2/view/pages/section.dart';
 import 'package:odcworkshop2/view/pages/setting.dart';
-import 'package:odcworkshop2/view/pages/splash.dart';
 import 'package:odcworkshop2/view_model/database/network/dio_helper.dart';
 import 'package:odcworkshop2/view_model/database/network/local/cache_helper.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';

@@ -70,7 +70,7 @@ class Login extends StatelessWidget {
                           const Text(
                             'Login',
                             style: TextStyle(
-                                color: Colors.black,
+                                color: blackColor,
                                 fontSize: 22,
                                 fontWeight: FontWeight.bold),
                           ),
@@ -131,7 +131,7 @@ class Login extends StatelessWidget {
                                   height: 5,
                                   indent: 15,
                                   endIndent: 15,
-                                  color: Colors.black26,
+                                  color: Black26,
                                 ),
                               ),
                               Text(
@@ -143,7 +143,7 @@ class Login extends StatelessWidget {
                                   height: 5,
                                   indent: 15,
                                   endIndent: 15,
-                                  color: Colors.black26,
+                                  color: Black26,
                                 ),
                               ),
                             ],
@@ -161,7 +161,7 @@ class Login extends StatelessWidget {
                             }, child: Text('Sign Up', style: TextStyle(fontSize: 20),),
                               style: OutlinedButton.styleFrom(
                                 side: const BorderSide(
-                                  color: Colors.orange,
+                                  color: mainColor,
                                 ),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(15),

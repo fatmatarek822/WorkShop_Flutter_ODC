@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:odcworkshop2/core/resources/color_manager.dart';
 import 'package:odcworkshop2/view/component/core/core_components.dart';
 import 'package:odcworkshop2/view/component/login/login_components.dart';
 import 'package:odcworkshop2/view/pages/layout.dart';
@@ -51,7 +52,7 @@ class RegisterScreen extends StatelessWidget {
                           const Text(
                             'Sign Up',
                             style: TextStyle(
-                                color: Colors.black,
+                                color: blackColor,
                                 fontSize: 22,
                                 fontWeight: FontWeight.bold),
                           ),
@@ -139,7 +140,7 @@ class RegisterScreen extends StatelessWidget {
                                     DecoratedBox(
                                       decoration: const ShapeDecoration(
                                         shape: RoundedRectangleBorder(
-                                          side: BorderSide(width: 1.0, style: BorderStyle.solid, color: Colors.orange),
+                                          side: BorderSide(width: 1.0, style: BorderStyle.solid, color: mainColor),
                                           borderRadius: BorderRadius.all(Radius.circular(10.0)),
                                         ),
                                       ),
@@ -182,7 +183,7 @@ class RegisterScreen extends StatelessWidget {
                                     DecoratedBox(
                                       decoration: const ShapeDecoration(
                                         shape: RoundedRectangleBorder(
-                                          side: BorderSide(width: 1.0, style: BorderStyle.solid, color: Colors.orange),
+                                          side: BorderSide(width: 1.0, style: BorderStyle.solid, color: mainColor),
                                           borderRadius: BorderRadius.all(Radius.circular(10.0)),
                                         ),
                                       ),
@@ -231,7 +232,7 @@ class RegisterScreen extends StatelessWidget {
                                   child: DecoratedBox(
                                     decoration: const ShapeDecoration(
                                       shape: RoundedRectangleBorder(
-                                        side: BorderSide(width: 1.0, style: BorderStyle.solid, color: Colors.orange),
+                                        side: BorderSide(width: 1.0, style: BorderStyle.solid, color: mainColor),
                                         borderRadius: BorderRadius.all(Radius.circular(10.0)),
                                       ),
                                     ),
@@ -286,7 +287,7 @@ class RegisterScreen extends StatelessWidget {
                                   }, child: const Text('Login', style: TextStyle(fontSize: 20),),
                                     style: OutlinedButton.styleFrom(
                                       side: const BorderSide(
-                                        color: Colors.orange,
+                                        color: mainColor,
                                       ),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),

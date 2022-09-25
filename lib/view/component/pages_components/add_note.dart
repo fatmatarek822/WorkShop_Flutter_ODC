@@ -3,12 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:odcworkshop2/core/resources/color_manager.dart';
 
 Widget NoteFormFeild({
+  String? Function(String?)? validate,
+  TextEditingController? controller,
   required String text,
+  bool? readOnly ,
+  bool? enabled,
   int? maxline,
 }) =>
     TextFormField(
+      controller: controller,
       maxLines: maxline,
       cursorColor: mainColor,
+      validator: validate,
       decoration: InputDecoration(
         label: Text(
           text,
